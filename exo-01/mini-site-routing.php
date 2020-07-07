@@ -26,7 +26,7 @@ if ($_GET[page]== Connexion) {
 <?php
 if(isset($_SESSION ["id"])); 
 {
-    echo "login :" . $_SESSION ["id"];
+    echo "" . $_SESSION ["id"];
 }
 if(isset($_COOKIE ["id"])){
     echo $_SESSION["id"] = $_COOKIE ["id"];
@@ -34,6 +34,7 @@ if(isset($_COOKIE ["id"])){
 else 
 {
     header ("http://localhost:8888/ISCC-2020/ISCC-2020-J09/J09/exo-01/mini-site-routing.php?page=Connexion ") ;
+
 } 
 ?>
 </head>
